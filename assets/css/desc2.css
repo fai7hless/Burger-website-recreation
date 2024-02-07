@@ -1,0 +1,50 @@
+section.desc2{
+    background-color: #ffeddb;
+    }
+
+section.desc2 .burger{
+  margin: 0 auto;
+  width: 1440px;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+    background-position:
+    5% 5%,
+    50% 10%,
+    2% 98%,
+    45% 93%;
+    background-image: url('../images/tomato-shape.png'),url('../images/burger-shape.pngtomato-shape.png'),url('../images/pizza-shape.pngtomato-shape.png'),url('../images/lasagna-shape.pngtomato-shape.png');
+
+}
+
+section.desc2 .container{
+    width: 1440px;
+    height: 796px;
+    justify-content: space-around;
+    align-items: center;
+    transform: scaleX(-1)
+}
+
+section.desc2 .container img {
+    width: 415px;
+    height: 415px;
+    border-radius: 207px;
+    background-color: #4d80e4;
+}
+
+section.desc2 .container .text h1 {
+    font-size: 53px;
+    color: #1b6ec7;
+    font-weight: 700;
+    font-family: "Aleo";
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+section.desc2 .container .text p {
+    width: 540px;
+    height: 265px;
+    font-size: 14px;
+    color: #1a1a1a;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
